@@ -1,0 +1,20 @@
+{% load static %}
+body{
+    background-image: url("../img/fondo4.jpg"); 
+    background-size: cover; /*hace que la imagen se aplique a todo el contenedor sin mostrar los sobrantes a los lados o arriba y abajo*/
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-attachment: fixed
+}
+
+footer {
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 10px;
+}
